@@ -4,7 +4,7 @@ require "pry"
 
 def key_for_min_value(name.hash)
     
-      name.hash.each do |name, num|
+      name.hash.each do |key, value|
       if num < 2  && name == num
         
        return  name
