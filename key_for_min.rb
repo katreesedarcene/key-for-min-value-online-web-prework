@@ -7,7 +7,7 @@ def key_for_min_value(hash)
       hash.each do |name, num|
       if num < 2  && name == num
         
-       return  name_hash
+       return  name
     end 
       end
 end
